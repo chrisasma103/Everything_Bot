@@ -1,5 +1,6 @@
 require './config/environment'
 require './app/models/model'
+#3: shotgun -p $PORT -o $IP
 
 class ApplicationController < Sinatra::Base
   configure do
